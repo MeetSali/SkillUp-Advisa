@@ -1,4 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SkillUp-Advisa
+
+Welcome to SkillUp-Advisa! This project is a Next.js application.
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Scripts](#scripts)
+- [Dependencies](#dependencies)
+- [Contributing](#contributing)
 
 ## Getting Started
 
@@ -18,19 +29,87 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+1.  Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    git clone https://github.com/MeetSali/SkillUp-Advisa.git
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2.  Navigate to the project directory:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    ```bash
+    cd SkillUp-Advisa
+    ```
 
-## Deploy on Vercel
+3.  Install dependencies using npm:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    npm install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    or using yarn:
+
+    ```bash
+    yarn install
+    ```
+
+## Usage
+
+To run the application in development mode:
+
+```bash
+npm run dev
+```
+
+To build the application for production:
+
+```bash
+npm run build
+```
+
+To start the production server:
+
+```bash
+npm run start
+```
+
+To run the linter:
+
+```bash
+npm run lint
+```
+
+## Scripts
+
+The following scripts are defined in the `package.json` file:
+
+-   `dev`: Runs the Next.js development server.
+-   `build`: Builds the application for production.
+-   `start`: Starts the Next.js production server.
+-   `lint`: Runs the Next.js linter.
+
+## Dependencies
+
+The following dependencies are used in this project:
+
+-   `react`: "^19.0.0"
+-   `react-dom`: "^19.0.0"
+-   `next`: "15.3.2"
+
+## Dev Dependencies
+
+The following dev dependencies are used in this project:
+
+-   `@tailwindcss/postcss`: "^4"
+-   `tailwindcss`: "^4"
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1.  Fork the repository.
+2.  Create a new branch for your feature or bug fix.
+3.  Make your changes and commit them with clear, concise messages.
+4.  Submit a pull request.
